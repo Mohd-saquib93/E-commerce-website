@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTG Eats</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Squada+One&display=swap" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    
+
+    <header>
+        <!-- ---------- NAVBAR --------- -->
+        <div class="navbar">
+            <div class="nav1">
+                <p>JTGeats</p>
+            </div>
+
+            <div class="nav2">
+                <a>Home</a>
+                <a>About</a>
+                <a>Menu</a>
+                <a>Blog</a>
+                <a>Contact</a>
+               </div>
+
+               <div class="nav-icon">
+                <i class="ri-search-line" ></i>
+            <i class="ri-shopping-bag-line" id="bag"></i>
+            </div>
+        </div>
+
+        <!---------------- LANDING SECTION-------------------- -->
+
+        <div class="landing-sec">
+            <div class="left-landing">
+            <div class="left-landing1">
+                <p class="para">Authentic Home</p>
+                <p class="para">Food In India</p>
+                </div>
+                
+
+                <div class="left-landing2">
+                    <p class="para2">JTGeats is a courier service in which authentic home</p>
+                 <p class="para2">cook food is delivered to a    customer.</p>
+                 </div>
+
+                 <div class="left-landing3">
+                    <input placeholder="Search Food You Love" class="search-input" type="text">
+                        <div class="search-bar">Search</div>
+                </div>
+                    </div>
+
+                    <div class="right-landing">
+                        <img src="images/cuate.png" id="chef" alt="">
+                    </div>
+
+    </div> 
+
+    <!-- MODAL1 -->
+
+    <div class="modal1">
+        <i class="ri-shopping-bag-line" id="empty"></i>
+        <p class="para-m">Cart is Empty</p>
+        <p class="para-m2">Add some items to the cart to checkout</p>
+        <button class="menu-btn">Back to Menu</button>
+    </div>
+
+    <!-- MODAL2 -->
+     <div class="modal2">
+        <p class="rqst">Request a Dish</p>
+        <div class="inputs2">
+            <label for="dish">Name*</label>
+            <input type="text" id="name1" class="dishes" placeholder="Enter name of the dish">
+        </div>
+        <div class="inputs2">
+            <label for="dish">Upload an image</label>
+            <input type="url" id="url" class="dishes" placeholder="Paste a URL">
+        </div>
+        <div class="buttons">
+            <button class="btns1">Cancel</button>
+            <button class="btns2">Submit Request</button>
+        </div>
+     </div>
+
+
+
+    <!-- -------------KITCHEN SECTION -->
+     <div class="kitchen-sec">
+        <h1 id="head">Home Kitchen</h1>
+
+        <div class="grid">
+            <!-- box1 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/1.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- --------box2 -->
+        
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/2.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -----box3 -->
+              
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/12.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- box4 -->
+              
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/4.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- box5 -->
+             <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/5.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- box6 -->
+             <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/6.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- box7 -->
+             <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/7.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- box8 -->
+             <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/8.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box9 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/13.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box10 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/10.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box11 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/11.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- box12 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/12.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            </div>
+
+    <!-- popular items  -->
+
+    <div class="popular">
+        <h1>Popular Items</h1>
+    </div>
+
+    <!-- SLIDER -->
+     <div class="slider-container">
+        <i class="ri-play-reverse-fill slidebtn" id="left"></i>
+        <div class="slidegrid">
+            <!-- card1 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/9.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>chilli chicken</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- card2 -->
+             <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/chicken tikka.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>chikcken tikka</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card3 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/garlic.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>garlic Bread</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card4 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/pasta.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Pasta</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card5 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/12.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p>Home Made Pizza</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card6 -->
+            <div class="box-content" id="box1">
+                <div class="img-content">
+                    <img src="images/popcorn.svg.jpg" alt="" id="box-image">
+                </div>
+
+                <div class="box-details">
+                    <div class="box-desc">
+                        <p> Chicken Popcorn</p>
+                        <span>₹190</span>
+                    </div>
+
+                    <div class="left">
+                        <div class="rating">
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="timing">
+                                <p id="time-taken">50-79</p>
+                            </div>
+                        </div>
+                        <div class="plus-sign">
+                            <i class="ri-add-line" id="plus"></i>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+</div>
+        
+            <i class="ri-play-fill slidebtn" id="right"></i>
+     </div>
+
+     <!-- REQUEST BUTTON -->
+     <div class="requestbtn">
+        <button class="request"> Request a Dish</button>
+     </div>
+
+     <!-- PARAGRAPH -->
+      <div class="paragraph">
+        <h1 class="bigp">We are providing best <br>
+            home cooked food delivery service.</h1>
+            <p class="smallp">Away from home and craving the tasty homemade recipes? <br>
+                Choose from the selection of our delicioushome cooked dishes</p>
+      </div>
+
+      <!-- VIDEO DIV -->
+       <div class="video-section">
+        <div class="video">
+            <video src="video/video.mp4" id="food" autoloop loop></video>
+            <i class="ri-play-fill slidebtn stopplay" id="right"></i>
+        </div>
+        <div class="transparent"></div>
+</div>
+
+     <!-- Last div -->
+
+     <div class="lastdiv">
+        <div class="lastleft">
+            <div class="last-description">
+                <p class="lastp1">Do you have a question <br> or want to be a seller? </p>
+                <p class="lastp2"> Fill this form and our manager will contact you in next 48 hours.</p>
+            </div>
+            <div class="inputs">
+                <input type="text" placeholder="Your Name" class="inp">
+                <input type="email" placeholder="Your e-mail" class="inp">
+            </div>
+            <textarea name="" id="text" cols="30" rows="16" placeholder="Your Message"></textarea>
+            <button class="submit">Submit</button>
+        </div>
+        <div class="lastright">
+            <img src="Food_delivery_cute_man_riding_motorcycles_cartoon_art_illustration 2.png" alt="">
+        </div>
+     </div>
+
+     <div class="header-footer">
+        <div class="nav1">
+            <p>JTGeats</p>
+        </div>
+
+        <div class="nav2">
+            <a>Home</a>
+            <a>About</a>
+            <a>Menu</a>
+            <a>Blog</a>
+            <a>Contact</a>
+           </div>
+
+           <div class="nav-icon">
+            <div class="social"><i class="ri-instagram-line"></i></div>
+            <div class="social"><i class="ri-facebook-fill"></i></div>
+        </div>
+    </div>
+
+
+
+</header>
+ <script src="js/script.js"></script>
+
+</body>
+</html>
